@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "Enter a number:"
+read num
+
+square=$(echo "$num * $num" | bc)
+
+echo "The square of $num is $square"
