@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Prompt user for name
+echo "What is your name?"
+read name
+
+# Prompt user for program name
+echo "What is your program name?"
+read program_name
+
+# Prompt user for enrollment number
+echo "What is your enrollment number?"
+read enrollment_number
+
+# Print the collected information to the screen
+echo "Your name is: $name"
+echo "Your program name is: $program_name"
+echo "Your enrollment number is: $enrollment_number"
